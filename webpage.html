@@ -1,0 +1,517 @@
+<!--
+	Name: Anurag Bhattacharya
+	Student #: 301050634
+	Due Date: March 15th, 2023
+	Assignment: Assignment 2: Website Design & HTML - Part 3
+-->
+
+<!DOCTYPE html>
+
+	<html lang="en">
+
+		<!-- Begginning of Head of HTML -->
+		<head>
+
+			<!-- Metadata of the Website -->
+			<meta charset="utf-8" />
+			<meta name="viewpoint" content="width=device-width, intial-scale=1">
+			<meta name="author" content="Anurag Bhattacharya">
+			<meta name="description" content="Japanese Vending Machines">
+			<meta name="keywords" content="Japense, Vending Machines, Facts, Exotic Items, Content Creator Blogs">
+
+			<!-- The Title of Website, on the Tab of the Website -->
+			<title>Vend-o-Japan: Your Ultimate Guide to Japanese Vending Machines</title>
+
+			<!-- Some Internal CSS Styling -->
+			<style type="text/css">
+
+				/* Styling the Full Body of the Website */
+				body {
+					background-color: lightblue;
+				}
+
+				/* Styling the Comapny Name of the Website */
+				#companyName {
+					text-align: center;
+					color: white;
+					font-family: Arial;
+				}
+
+				/* Styling the Company Slogan of the Website */
+				#companySlogan {
+					text-align: center;
+					color: blue;
+					font-family: Arial;
+				}
+
+				/* Styling the Navigation Section */
+				#nav {
+					text-align: center;
+					margin: 0;
+					padding: 0;
+					overflow: hidden;
+					font-family: Arial	;
+				}
+				#nav a {
+					padding-right: 2px;
+					border-right: solid black;
+					text-decoration: none;
+				}
+				#nav a:hover {
+					text-decoration: underline;
+				}
+				#nav a:visited {
+					color: blue;
+				}
+
+				/* Styling the Body Paragraphs */
+				#body {
+					background-color: white;
+					padding-left: 25px;
+					padding-right: 25px;
+					font-size: 18px;
+					font-family: Arial;
+				}
+				#body ul {
+					list-style: square;
+				}
+
+				/* Styling the Additional Links Sections */
+				#additionalLink {
+					text-align: center;
+				}
+				#additionalLink a{
+					color: blue;
+					text-decoration: none;
+				}
+				#additionalLink a:hover{
+					text-decoration: underline;
+				}
+
+				/* Styling the Footer of the Website */
+				footer {
+					background-color: white;
+					padding-left: 25px;
+					padding-right: 25px;
+					font-size: 16px;
+					font-family: Arial;
+				}
+				footer h3{
+					font-size: 21px;
+				}
+				footer ol li a{
+					color: blue;
+					text-decoration: none;
+				}
+				footer ol li a:visited{
+					color: blue;
+				}
+				footer ol li a:hover{
+					text-decoration: underline;
+				}
+
+				/* Styling the Return To Top Section */
+				#return {
+					text-align: center;
+				}
+				#return a {
+					color: blue;
+					text-decoration: none;
+				}
+				#return a:hover {
+					text-decoration: underline;
+				}
+
+				/* Styling the Images for each Section of the Website */
+				#sectionPics {
+					text-align: center;
+				}
+
+				/*Styling the YouTube Section of the Website*/
+				.youTubeVideos {
+					display: flex;
+					justify-content: center;
+					flex-flow: row wrap;
+					list-style: none;
+					margin: 0;
+					padding: 0;
+				}
+				.youTubeVideos li {
+					margin: 1em;
+					display: flex;
+					flex-flow: column;
+					align-items: center;
+				}
+
+			</style>
+			<!-- End of Internal CSS Styling -->
+
+		</head>
+		<!-- End of Head of HTML -->
+
+		<!-- The Full Body of the Website -->
+		<body>
+
+			<!-- The Header of the Website -->
+			<header>
+
+				<!-- The Website Name Div -->
+				<div id="companyName">
+
+					<!-- The Website Logo Div -->
+					<div>
+
+						<!-- The Website Logo of the Website -->
+						<!-- Inline CSS Styling included -->
+						<img src="Images/logo.png" alt="logo" height="100" width="150"/>
+
+					</div>
+
+					<!-- Website Name -->
+					<h1>Vend - o - Japan: Your Ulmitate Guide To Japanese Vending Machines</h1>
+
+					<!-- Website Slogan -->
+					<h2 style="color: blue;">"Experience the Convenience and Culture of Japan with Our Vending Machines!"</h2>
+
+				</div>
+				<!-- End of Website Name Div -->
+					
+			</header>
+			<!-- End of Header Div -->
+
+			<!-- The Navigation of the Website -->
+			<div id="nav">
+
+				<!-- 1st Blog Article -->
+				<a href="#sectionOne" style="padding-right: 5px;">ABOUT US</a>
+
+				<!-- 2nd Blog Article -->
+				<a href="#sectionTwo" style="padding-right: 5px;">FUN FACTS!</a>
+
+				<!-- 3rd Blog Article -->
+				<a href="#sectionThree" style="padding-right: 5px;">MOST EXOTIC ITEMS</a>
+
+				<!-- 4th Blog Article -->
+				<a href="#sectionFour" style="padding-right: 5px;">WHY SO POPULAR?</a>
+
+				<!-- 5th Blog Article -->
+				<a href="#sectionFive" style="padding-right: 5px;">OTHER INFORMATION</a>
+
+			</div>
+			<!-- End of Navigation of the Website -->
+
+			<!-- Main Body of the Website -->
+			<div id = "body">
+
+				<!-- 1st Blog Article -->
+				<span id="sectionOne">
+
+					<h2>ABOUT US:</h2>
+
+					<p>
+						Welcome to "Vend-o-Japan: Your Ultimate Guide to Japanese Vending Machines". This website showcases Fun Facts about Vending Machines, Some of the Most Exotic Items found in Japanese Vending Machines, and Why Vending Machines are So Popular in Japan?
+					</p>
+
+					<p>
+						Some Interesting Fun facts about Japenese Vending machines:
+
+						<!-- Bulletted List of Some facts -->
+						<!-- Inline CSS Styling Included -->
+						<ul>
+							<li style="padding-bottom: 5px;">Japan is Home to over 5.5 Million Vending Machines! That's one for every 23 people! J-Vends</li>
+							<li>Vending Machines are known for their innovative features, such as touchscreens and facial recognition technology.</li>
+						</ul>
+						<!-- End of Bulletted List -->
+
+						Lot more Fun Facts are discussed!
+					</p>
+
+					<p>
+						When it comes to Exotic Items, Japanese Vending Machines do not disappoint. You find items from live bait to cameras to even gold bars! J-Vends offer a unique shopping experience and a reflection of country's commitment to convenience and innovation.
+					</p>
+
+					<p>
+						Japanese Vending Machines are popular for many reasons. In this website, all the reasons are explored and explained!
+					</p>
+
+					<p>
+						To further showcase the fascinating world of Japanese Vending Machines, three exciting blog videos by YouTube Content Creators showcase the various food and items that are found and the fascination of Japanese Vending Machines!
+					</p>
+
+					<!-- Images for this Section of the Website -->
+					<div id="sectionPics">
+						<!-- Image 01 -->
+						<!-- Inline CSS Styling Included -->
+						<img src="Images/vendingMachineRow.jpeg" alt="Row of Japanese Vending Machines" height="265" width="300" hspace="20"> 
+						<!-- Image 02 -->
+						<!-- Inline CSS Styling Included -->
+						<img src="Images/crabVendingMachine.jpg" alt="Live Crab Vending Machine" height="265" width="300" hspace="20"> 
+						<!-- Image 03 -->
+						<!-- Inline CSS Styling Included -->
+						<img src="Images/technology.jpg" alt="Showcasing Technology of Vending Machines" height="265" width="300" hspace="20">
+					</div>
+					<!-- End of Images Section -->
+
+					<!-- Return to the Top Section -->
+					<div id="return">
+						<a href="#top">Return to the Top</a>
+					</div>
+					<!-- End of Return to the Top Section -->
+
+				</span>
+				<!-- End of 1st Blog Article -->
+
+				<!-- 2nd Blog Article -->
+				<span id="sectionTwo">
+
+					<h2>FUN FACTS ABOUT JAPANESE VENDING MACHINES:</h2>
+
+					<p>
+						Japanese Vending Machines are a staple of the country's daily life and offer more than just a quick and convenient way to buy drinks and snacks. Here are some fun facts about these iconic machines:
+					</p>
+
+					<!-- Numbered List of Fun Facts -->
+					<!-- Inline CSS Styling Included -->
+					<ol type="1">
+						<li style="padding-bottom: 5px">
+							<b>Density:</b> 
+							Japanese has an estimated 5.52 million Vending Machines across the country! There is likely a vending machine for every 100 meters at any given location!
+						</li>
+						<li style="padding-bottom: 5px">
+							<b>Wide Range of Offerings:</b> 
+							J-Vends offer a wide range of products from drinks, snacks to everyday needs. Some even fresh hot foods!
+						</li>
+						<li style="padding-bottom: 5px">
+							<b>Technology:</b> 
+							Japanese Vending Machines are known for their advanced technology and innovation. Many machines feature touchscreens and digital displays. Some even can reconize faces and suggest product's based on a person's age and/or gender!
+						</li>
+						<li style="padding-bottom: 5px">
+							<b>Safety:</b> 
+							J-Vends are known for being safe and reliable. They are well-mainted and restocked regularily, most have been designed to withstand harsh weather conditions and vandalism.
+						</li>
+						<li style="padding-bottom: 5px">
+							<b>Sustainability:</b> 
+							Japanese Vending Machines have become environmental friendly. Many using renewable energy sources, like solar power, to reduce their carbon footprint.
+						</li>
+						<li style="padding-bottom: 5px">
+							<b>Cultural Significance:</b> 
+							J-Vends is an iconic part of Japanese Culture, reflecting the country's commitment to convience, efficience and technology. Often featured in popular media like anime and manga. Lastly, J-Vends are a symbol of the country's innovative society.
+						</li>
+						<li style="padding-bottom: 5px">
+							<b>Acceptable Payments:</b> 
+							Japanese Vending Machines accept various forms of payment options from cash to prepaid cards to various payment cards. Additionally, some machines now accept mobile payments like Apple Pay and Android Pay.
+						</li>
+					</ol>
+					<!-- End of Numbered List -->
+
+					<!-- Image of this Section -->
+					<div id="sectionPics">
+						<!-- Image 01 -->
+						<!-- Inline CSS Styling Included -->
+						<img src="Images/payment.jpg" alt="Many Payment Options" height="210" width="300" hspace="20"> 
+					</div>
+					<!-- End of Image Section -->
+
+					<!-- Additional Links Section -->
+					<p id="additionalLink">To learn more fun facts:<a href="https://itsyourjapan.com/japanese-vending-machines">Click Here</a></p>
+					<!-- End of Additonal Links Section -->
+
+					<!-- Return to the Top Section -->
+					<div id="return">
+						<a href="#top">Return to the Top</a>
+					</div>
+					<!-- End of Return to the Top Section -->
+
+				</span>
+				<!-- End of 1st Blog Article -->
+
+				<!-- The 3rd Blog Article -->
+				<span id="sectionThree">
+
+					<h2>MOST EXOTIC ITEMS FOUND IN JAPANESE VENDING MACHINES:</h2>
+
+					<p>
+						Japanese Vending Machines are famous for offering a wide range of products, from drinks and snacks to everyday essentials. However, some machines in Japan offer some truly exotic items that are hard to find anywhere else in the world. 
+						Here are some of the most interesting and unique items that you can purchase from a Japanese Vending Machine:
+					</p>
+
+					<!-- Bulleted List of Exotic Items -->
+					<!-- Inline CSS Styling Included -->
+					<ul>
+						<li style="padding-bottom: 5px">
+							<b>Live Crabs:</b> 
+							Live Crabs, kept fresh and in good condition are one of most unique products found in Vending machines at Japan. These machines are popular in tourist areas, and offer a unique and convenient way to try fresh seafood.
+						</li>
+						<li style="padding-bottom: 5px">
+							<b>Sake:</b> 
+							Sake is a popular alcoholic drink in Japan and can purchased from vending machines in various flavors and size. Some machines sell premium Sake, which is rare to find.
+						</li>
+						<li style="padding-bottom: 5px">
+							<b>Fresh Eggs:</b> 
+							In rural Areas of Japan, Vending Machines offer fresh eggs stored in optimal temperature. This provides a conveniance way for people in the area to buy Fresh Eggs, even when grocery stores are closed.
+						</li>
+						<li style="padding-bottom: 5px">
+							<b>T-Shirts:</b> 
+							Japanese Vending Machines sell T-Shirts featuring popular anime and manga character, providing a quick and easy way for fans to purchase merchandise.
+						</li>
+						<li style="padding-bottom: 5px">
+							<b>Rice:</b> 
+							Rice is a staple food of Japan and vending machines offer pre-packaged rice for sale. These offer a convenient way for people to purchase rice, especially in rural areas.
+						</li>
+						<li style="padding-bottom: 5px">
+							<b>Bouquets of Flowers:</b> 
+							Vending Machines selling fresh flowers are pretty common in Japan, especially in train stations and public areas. These machines offers convenient way for people to purchase bouquets for gifts or special occasions.
+						</li>
+						<li style="padding-bottom: 5px">
+							<b>Bicycle Rentals:</b> 
+							Vending machines in Japan offer bicycle rentals, making it easy for people to rent a bike and explore the city. These machines offer a sustainable and eco-friendly way to other forms of transportation.
+						</li>
+					</ul>
+					<!-- End of Bulleted List -->
+
+					<!-- Image of this Section -->
+					<div id="sectionPics">
+						<!-- Image 01 -->
+						<!-- Inline CSS Styling Included -->
+						<img src="Images/exoticItems.jpg" alt="Row of Japanese Vending Machines with Exotic Items" height="220" width="300" hspace="20">
+					</div>
+					<!-- End of Image Section -->
+
+					<!-- Additional Link Section -->
+					<p id="additionalLink">To find more exotic and strange items:<a href="https://www.thetravel.com/weird-things-we-can-actually-buy-in-japans-vending-machines/#flying-fish-soup">Click Here</a></p>
+					<!-- End of Additional Link Section -->
+
+					<!-- Return to the Top Section -->
+					<div id="return">
+						<a href="#top">Return to the Top</a>
+					</div>
+					<!-- End of Return to the Top Section -->
+
+				</span>
+				<!-- End of 3rd Blog Article -->
+
+				<!-- The 4th Blog Article -->
+				<span id="sectionFour">
+
+					<h2>WHY ARE JAPENESE VENDING MACHINES SO POPULAR?</h2>
+
+					<p>
+						Vending Machines are an Iconic Part of Japanese culture and for many good reasons. They are incredibly popular due to to a variety of factors, which include convenience, innovation, reliability and accessibility.
+					</p>
+
+					<p>
+						One of the primary reasons why Vending Machines are so popular in Japan is their convenience. There is over 5.5 million vending machines across the country, almost a within a few minute's walk from wherever. Makes them a convenient option for people on-the-go, who need to grab something quickly.
+					</p>
+
+					<p>
+						Another reason is the innovative technology that vending machines use. Many machines now feature touchscreens and digital displays, some even have the ability to recognize faces and suggest products based on person's age and gender. Not only makes the experience fun and engaging, but also allows for a more personalized shopping experience.
+					</p>
+
+					<p>
+						Vending Machines in Japan are known for their reliability. They are restocked regularly and have been design to withstand harsh weather conditions and vandalism. This makes them a safe and trustworthy option for people to use, even in the middle of the night.
+					</p>
+
+					<p>
+						Lastly, Vending Machines are incredibly accessible. They offer a variety range of products, from drinks and snacks to everyday essentials like umbrellas and toiletaries. Additionally, they accept wide range of payment options, making transactions simple and fast.
+					</p>
+
+					<!-- Image of this Section -->
+					<div id="sectionPics"> 
+						<!-- Image 01 -->
+						<!-- Inline CSS Styling -->
+						<img src="Images/vending-machines.jpg" alt="Row of Japanese Vending Machines with Exotic Items" height="320" width="300" hspace="20">
+					</div>
+					<!-- End of Image Section -->
+
+					<!-- Return to the Top Section -->
+					<div id="return">
+						<a href="#top">Return to the Top</a>
+					</div>
+					<!-- End of Return to the Top Section -->
+				</span>
+				<!-- End of 4th Blog Article -->
+
+				<!-- The 5th Blog Article -->
+				<span id="sectionFive">
+
+					<h2>OTHER INFORMATION:</h2>
+
+					<p>Here are Some YouTube Bloggers enjoying and showcasing some of most fascinating J-Vends you can find!</p>
+
+					<!-- Unnumbered List of YouTube Videos -->
+					<!-- Inline CSS Styling Included -->
+					<ul class="youTubeVideos">
+						<li>
+							<iframe src="https://www.youtube.com/embed/LBSruuYto2g" height="145" width="250"></iframe>
+						</li>
+						<li>
+							<iframe src="https://www.youtube.com/embed/ZCvYDi9pJPY" height="145" width="250"></iframe>
+						</li>
+						<li>
+							<iframe src="https://www.youtube.com/embed/TfI3S4tALuk" height="145" width="250"></iframe>
+						</li>
+					</ul>
+
+					<!-- Return to the Top Section -->
+					<div id="return">
+						<a href="#top">Return to the Top</a>
+					</div>
+					<!-- End of Return to the Top Section -->
+
+				</span>
+				<!-- End of 5th Blog Article -->
+
+			</div>
+			<!-- End of Main Body of the Website -->
+
+		</body>
+		<!-- End of Full Body of the Website -->
+
+		<!-- Begginning of the Footer -->
+		<footer>
+
+			<!-- All Images References -->
+			<span id="references">
+				<h3>References:</h3>
+
+				<!-- Numbered List of References -->
+				<!-- Inline CSS Styling Included -->
+				<ol type="1" style="font-size: 16px;">
+
+					<li style="padding-bottom: 5px">Website Background Image from <a href="https://www.apartmenttherapy.com/17-vending-machines-that-prove-anything-can-be-bought-on-the-go-251093">https://www.apartmenttherapy.com/17-vending-machines-that-prove-anything-can-be-bought-on-the-go-251093</a></li>
+
+					<li style="padding-bottom: 5px">Japan Flag Taken from <a href="https://www.dreamstime.com/stock-illustration-japan-flag-vector-file-image89261619">https://www.dreamstime.com/stock-illustration-japan-flag-vector-file-image89261619</a></li>
+
+					<li style="padding-bottom: 5px">Vending Machine Icon Taken from <a href="https://www.vectorstock.com/royalty-free-vector/vending-machine-icon-line-symbol-premium-quality-vector-22953697">https://www.vectorstock.com/royalty-free-vector/vending-machine-icon-line-symbol-premium-quality-vector-22953697</a></li>
+
+					<li style="padding-bottom: 5px">The Above two combined to form the Company Logo</li>
+
+					<li style="padding-bottom: 5px">Row of Vending Machines from <a href="https://www.apartmenttherapy.com/17-vending-machines-that-prove-anything-can-be-bought-on-the-go-251093">https://www.apartmenttherapy.com/17-vending-machines-that-prove-anything-can-be-bought-on-the-go-251093</a></li>
+
+					<li style="padding-bottom: 5px">Live Crab Vending Machine Pic from <a href="https://www.bizarrefood.com/blog/live-crab-vending-machines/">https://www.bizarrefood.com/blog/live-crab-vending-machines/</a></li>
+
+					<li style="padding-bottom: 5px">Giant Technology Vending Machine Pic from <a href="https://livejapan.com/en/in-tokyo/in-pref-tokyo/in-tokyo_train_station/article-a0001321/">https://livejapan.com/en/in-tokyo/in-pref-tokyo/in-tokyo_train_station/article-a0001321/</a></li>
+
+					<li style="padding-bottom: 5px">Various Payment Options Pic from <a href="https://www.bfi.co.id/en/blog/kupas-tuntas-debt-service-ratio-dan-cara-hitungnya">https://www.bfi.co.id/en/blog/kupas-tuntas-debt-service-ratio-dan-cara-hitungnya</a></li>
+
+					<li style="padding-bottom: 5px">Additional Fun Facts Website from <a href="https://itsyourjapan.com/japanese-vending-machines/">https://itsyourjapan.com/japanese-vending-machines/</a></li>
+
+					<li style="padding-bottom: 5px">Row of Exotic Vending Machines Pic from <a href="https://www.apartmenttherapy.com/17-vending-machines-that-prove-anything-can-be-bought-on-the-go-251093">https://www.apartmenttherapy.com/17-vending-machines-that-prove-anything-can-be-bought-on-the-go-251093</a></li>
+
+					<li style="padding-bottom: 5px">More Strange Exotic Items to find in Japanese Vending Machines Website from <a href="https://www.thetravel.com/weird-things-we-can-actually-buy-in-japans-vending-machines/#flying-fish-soup">https://www.thetravel.com/weird-things-we-can-actually-buy-in-japans-vending-machines/#flying-fish-soup</a></li>
+
+					<li style="padding-bottom: 5px">Person walking By Vending Machines Pic from <a href="https://www.businessinsider.com/why-so-many-vending-machines-in-japan-2017-1">https://www.businessinsider.com/why-so-many-vending-machines-in-japan-2017-1</a></li>
+
+				</ol>
+				<!-- End of Numbered List -->
+
+			<!-- Website Creator Information Secton -->
+			<p>Posted by: ANURAG BHATTACHARYA</p>
+			<p>Contact information: abhatt15@uoguelph.ca</p>
+			<!-- End of Website Creator Information Section -->
+
+   		</footer>
+   		<!-- End of Footer -->
+
+	</html>
+	<!-- End of HTML File -->
